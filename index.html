@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#f3f2ec">
+<meta name="description" content="A fresh rotation of music clips. Watch, find your artist, and download your next favorite moment.">
+<title>clip room. — Music worth a replay.</title>
+<link rel="icon" href="assets/alien.png" type="image/png">
+<link rel="stylesheet" href="style.css">
+<script defer src="app.js"></script>
+</head>
+<body>
+<a class="skip-link" href="#collection">Skip to clips</a>
+<div class="site-shell">
+<header class="site-header">
+<a class="brand" href="./" aria-label="clip room home"><img src="assets/alien.png" alt="" width="42" height="42"><span>clip room<span class="brand-dot">.</span></span></a>
+<div class="header-note"><span class="status-dot"></span> A fresh music rotation</div>
+<a href="#collection" class="header-link">Explore the clips <span aria-hidden="true">↗</span></a>
+</header>
+<main>
+<section class="intro" aria-labelledby="page-title">
+<div class="intro-main"><div class="eyebrow"><span class="small-line"></span> THE CLIP COLLECTION</div><h1 id="page-title">Music worth<br>a <span class="replay-word">replay<svg viewBox="0 0 400 30" aria-hidden="true"><path d="M4 19 Q180 -3 396 14 M20 26 Q210 10 375 22"/></svg></span>.</h1><p>Good songs. Better moments.<br>A growing collection of music edits, ready to watch and download.</p><a class="primary-link" href="#collection">Find your next favorite <span aria-hidden="true">↓</span></a></div>
+<aside class="intro-aside"><div class="sticker"><img src="assets/alien.png" alt="Green alien illustration" width="154" height="154"><span>out of this world.<svg viewBox="0 0 22 22" aria-hidden="true"><path d="M11 1v20M1 11h20M4 4l14 14M4 18 18 4"/></svg></span></div><div class="edition"><span id="edition-count">THE COLLECTION</span><strong>Sound on.<br>Stay a little.</strong><p>Previews begin muted.<br>Tap a clip, then unmute to listen.</p></div></aside>
+</section>
+<section id="collection" class="collection" aria-labelledby="collection-title">
+<div class="collection-heading"><div><div class="eyebrow">PRESS PLAY. FIND SOMETHING.</div><h2 id="collection-title">The rotation<span class="count-pill" id="clip-count" aria-live="polite">—</span></h2></div><label class="search-box"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg><span class="sr-only">Search songs, artists, or clips</span><input id="search" type="search" placeholder="Find a song or artist…" autocomplete="off"></label></div>
+<div class="filter-row" aria-label="Filter by artist" id="artist-filters"></div>
+<div class="results-bar"><p id="result-summary" aria-live="polite">Loading the collection…</p><label class="sort-control">Show <select id="sort"><option value="newest">Latest additions</option><option value="artist">Artist A–Z</option><option value="song">Song A–Z</option></select><span aria-hidden="true">⌄</span></label></div>
+<div id="clip-grid" class="clip-grid" aria-busy="true"></div>
+<div id="empty-state" class="empty-state" hidden><span aria-hidden="true">↗</span><h3>No clips in this corner yet.</h3><p id="empty-copy">Try a different song or artist.</p><button id="reset-filters" type="button">See the full collection</button></div>
+<div class="more-row"><button id="load-more" class="load-more" hidden type="button">More good music <span aria-hidden="true">↓</span></button></div>
+<p id="error-message" class="error-message" hidden role="alert"></p>
+</section>
+<section class="end-note"><span aria-hidden="true">✳</span><p>One good song<br>can change the whole day.</p><a href="#page-title">Back to the top <span aria-hidden="true">↑</span></a></section>
+</main>
+<footer><a class="footer-brand" href="./">clip room.</a><div><p>Fan-made music edits. Artists and original creators credited on every clip.</p><p id="updated-at">The collection grows as new clips are added.</p></div><a id="repository-link" hidden target="_blank" rel="noopener noreferrer">Collection on GitHub ↗</a></footer>
+</div>
+<div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+</body>
+</html>
