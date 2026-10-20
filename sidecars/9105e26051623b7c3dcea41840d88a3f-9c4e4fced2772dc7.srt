@@ -1,0 +1,11 @@
+1
+00:00:00,000 --> 00:00:04,000
+Arsal plays his new song for friends.
+
+2
+00:00:04,000 --> 00:00:08,300
+The honest first-listen test.
+
+3
+00:00:08,300 --> 00:00:13,000
+When the feedback lands.
