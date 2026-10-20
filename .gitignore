@@ -1,0 +1,10 @@
+.DS_Store
+.env*
+*.key
+*.pem
+*.mp4
+*.zip
+__pycache__/
+.cache/
+private/
+qa/
