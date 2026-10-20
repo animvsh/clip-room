@@ -16,7 +16,7 @@ GitHub Pages serves the root of the main branch. Videos are immutable GitHub Rel
 
 The catalog is refreshed daily with newly finished clips. Publication requires the current artist-name and alien-watermark finish, checked media, and no active quality or caption-review hold. Earlier video links remain available when a revised edit is published.
 
-Production credentials, source media, and private download records are kept outside this repository.
+Production credentials, source media, and private download records are kept outside this repository. See the [release notes](CHANGELOG.md) for changes.
 
 ## Development
 
