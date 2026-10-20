@@ -6,7 +6,7 @@ A public collection of music clips with embedded previews, artist filters, sourc
 
 ## Watch and download
 
-Previews start muted. Use the video controls to listen, and choose **Download MP4** to save a clip. Artist filters, song search, and sorting help find a specific moment.
+Previews start muted. Use the video controls to listen, and choose **Download MP4** to save a clip. Artist filters, song search, and sorting help find a specific moment. New artists appear in the filters as their clips enter the public collection; the original seven artists remain in their familiar order.
 
 Each clip includes its original source and a caption status. Editorial captions are commentary rather than lyrics; automatic captions are identified separately.
 
